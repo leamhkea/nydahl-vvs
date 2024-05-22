@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.billedetekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
