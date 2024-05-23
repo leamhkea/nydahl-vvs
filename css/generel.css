@@ -1,3 +1,22 @@
 img {
   max-width: 100%;
 }
+
+html {
+  --primary: #000000;
+  --secondary: #eb0000;
+}
+
+h1 {
+  color: var(--primary);
+}
+h2 {
+  color: var(--secondary);
+}
+h3 {
+  color: var(--secondary);
+}
+
+text {
+  font-family: Arial, Helvetica, sans-serif;
+}
