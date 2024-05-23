@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 .personer {
   text-align: center;
 }
@@ -6,18 +10,20 @@ img {
   max-width: 100%;
 }
 
-
-@media (min-width:800px) {
+@media (min-width: 800px) {
   .grid_1-1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr
-    ;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-@media (max-width:799px) {
+@media (max-width: 799px) {
   .grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
