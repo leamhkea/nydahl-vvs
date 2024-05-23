@@ -1,3 +1,23 @@
-h1 {
-  background-color: brown;
+.personer {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+@media (min-width:800px) {
+  .grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+    ;
+}
+}
+
+@media (max-width:799px) {
+  .grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 }
