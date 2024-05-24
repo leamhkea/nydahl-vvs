@@ -26,3 +26,15 @@ img {
 h2 {
   text-align: center;
 }
+.test {
+  background-color: aqua;
+}
+
+.section2 .personer div {
+  margin: 10px; /* Juster værdien efter behov */
+}
+
+.section2 .personer img {
+  display: block;
+  max-width: 100%;
+}
