@@ -28,6 +28,18 @@ main {
 }
 footer ul {
   list-style: none;
+}
+.footer {
+  position: relative;
+  text-align: center;
+  list-style: none;
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
