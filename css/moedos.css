@@ -21,6 +21,8 @@ img {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
   }
+}
+h2 {
+  text-align: center;
 }
