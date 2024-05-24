@@ -1,0 +1,28 @@
+.Kontaktformular {
+  label,
+  input,
+  button {
+    display: block;
+  }
+}
+.form {
+  display: grid;
+  margin: 2rem;
+}
+
+.form_felt {
+  display: grid;
+  margin: 1rem;
+}
+
+#send_knap {
+  border: 2px white;
+  background-color: red;
+  font-family: plus jakarta sans;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  float: right;
+}
