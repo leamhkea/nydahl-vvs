@@ -22,24 +22,28 @@ h4 {
 }
 
 main {
-  margin: 2% 12%;
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
 }
-footer ul {
-  list-style: none;
+footer {
+  margin-top: 10%;
 }
-.footer {
-  position: relative;
-  text-align: center;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 2% 12%;
 }
 
-@media (min-width: 700px) {
-  .footer {
-    flex-direction: row;
+@media (min-width: 800px) {
+  .footerstor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 799px) {
+  .footerlille {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
