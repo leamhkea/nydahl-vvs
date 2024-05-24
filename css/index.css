@@ -1,0 +1,30 @@
+.Kontaktformular {
+    label,
+    input,
+    button {
+      display: block;
+    }
+    display: grid;
+    background-color: #eb0000;
+    border-radius: 6px;
+    color: white;
+    font-family: plus jakarta sans;
+    gap: 10px;
+  }
+
+.form_felt {
+    display: grid;
+    margin: 1rem;
+    input,
+    textarea {
+      background-color: #e8e8e8;
+      border-radius: 3px;
+      border: none;
+      padding: 10px;
+      font-family: plus jakarta sans;
+      font-size: 12px;
+    }
+    label {
+      margin-bottom: 8px;
+    }
+  }
