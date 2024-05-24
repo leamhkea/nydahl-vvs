@@ -8,7 +8,7 @@ html {
 }
 
 h1 {
-  color: var(--primary);
+  color: var(--secondary);
   text-align: center;
 }
 h2 {
@@ -22,12 +22,31 @@ h4 {
 }
 
 main {
-  margin: 2% 12%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "plus jakarta sans";
   list-style: none;
 }
-footer ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+
+footer {
+  margin-top: 10%;
+}
+body {
+  margin: 2% 12%;
+}
+
+@media (min-width: 800px) {
+  .footerstor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 799px) {
+  .footerlille {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
 }
