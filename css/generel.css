@@ -21,17 +21,33 @@ h4 {
   color: var(--secondary);
 }
 
-header ul {
-  list-style: none;
-  padding: 1%;
-  margin: 0%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+a:link {
+  color: var(--primary);
+}
+a:visited {
+  color: var(--secondary);
+}
+a:hover {
+  color: var(--secondary);
 }
 
-main {
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 5em;
+}
+
+body {
   font-family: "plus jakarta sans";
+}
+main {
   list-style: none;
   margin: 2% 12%;
 }

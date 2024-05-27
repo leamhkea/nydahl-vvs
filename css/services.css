@@ -19,7 +19,7 @@
 } */
 .slogan {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h2 {
 @media (min-width: 700px) {
   .section1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     padding-top: 3em;
     padding-bottom: 3em;
     gap: 8%;
