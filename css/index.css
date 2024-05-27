@@ -41,16 +41,37 @@
     grid-template-columns: 1fr 2fr;
   text-align: left; 
  }
+ .imgkunde{
+   width: 40%;
+   justify-content: center;
+ }
+
+ .firepunkter{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+ }
+
+ .imgfirepunkter{
+  width: 50%;
+  justify-content: center;
+ }
 
   .figurmand{
     justify-content: center;
     display: flex;
   }
 
-  .imgkunde{
-    width: 20%;
+
+  .navindex ul li{
+    list-style: none;
+  }
+
+  p{
     justify-content: center;
   }
+
+
 
   @media (min-width: 700px) {
     .section1 {
@@ -69,6 +90,11 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
+    
+    .firepunkter{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
 
     .figurmand{
       justify-content: center;
