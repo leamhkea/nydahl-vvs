@@ -4,7 +4,6 @@
   button {
     display: block;
   }
-  display: grid;
   background-color: #eb0000;
   border-radius: 6px;
   color: white;
@@ -13,7 +12,6 @@
 }
 
 .form_felt {
-  display: grid;
   margin: 1rem;
   input,
   textarea {
@@ -23,13 +21,31 @@
     padding: 10px;
     font-family: plus jakarta sans;
     font-size: 12px;
+    width: 80%;
   }
   label {
     margin-bottom: 8px;
   }
 }
 
-#send_knap {
+.form_tekst {
+  margin: 1rem;
+  input,
+  textarea {
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    font-family: plus jakarta sans;
+    font-size: 12px;
+    width: 80%;
+  }
+  label {
+    margin-bottom: 8px;
+  }
+}
+
+.send_knap {
   border: 2px solid white;
   background-color: #eb0000;
   font-family: plus jakarta sans;
@@ -40,4 +56,22 @@
   color: white;
   float: right;
   margin: 10px;
+}
+
+@media (min-width: 800px) {
+  .Kontaktformular form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 799px) {
+  .Kontaktformular {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .send_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

@@ -12,13 +12,19 @@
   /* background-color: gray; */
   background-color: hsl(0%, 50%, 70%);
 }
-.ikon {
+/* .ikon {
   width: 90%;
   display: flex;
   justify-content: center;
+} */
+.slogan {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
+
 h1 {
   text-align: center;
+  margin-top: 8%;
 }
 h2 {
   text-align: center;
@@ -31,7 +37,7 @@ h2 {
 @media (min-width: 700px) {
   .section1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     padding-top: 3em;
     padding-bottom: 3em;
     gap: 8%;
