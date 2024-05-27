@@ -1,16 +1,18 @@
 .container {
   position: relative;
+  display: inline-block;
   text-align: center;
-  color: white;
-  font-size: xx-large;
+  font-size: x-large;
+  margin-bottom: 5%;
 }
 .billedetekst {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: gray; */
-  background-color: hsl(0%, 50%, 70%);
+  background-color: rgba(128, 128, 128, 0.7);
+  color: white;
+  border-radius: 15px;
 }
 
 .slogan {
