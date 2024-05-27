@@ -12,11 +12,7 @@
   /* background-color: gray; */
   background-color: hsl(0%, 50%, 70%);
 }
-/* .ikon {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-} */
+
 .slogan {
   display: grid;
   grid-template-columns: 1fr 4fr;
