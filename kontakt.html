@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="css/generel.css" />
     <title>Kontakt os</title>
   </head>
-  <header>
-    <img src="img/logo.svg" alt="logo" />
-    <nav>
-      <ul>
-        <li><a href="index.html">Velkommen</a></li>
-        <li><a href="moedos.html">Mød os</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
   <body>
+    <header>
+      <img src="img/logo.svg" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Velkommen</a></li>
+          <li><a href="moedos.html">Mød os</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <h2>Få et uforpligtende tilbud</h2>
       <div class="Kontaktformular">
@@ -27,6 +28,7 @@
             <div>
               <label for="Full_name">Fulde navn:</label>
               <input
+                id="Full_name"
                 placeholder="Fornavn og efternavn"
                 name="fname"
                 type="text"
@@ -35,18 +37,29 @@
 
             <div>
               <label for="Telefon_nummer">Telefonnummer:</label>
-              <input placeholder="+45" name="Telefon_nummer" type="tel" />
+              <input
+                id="Telefon_nummer"
+                placeholder="+45"
+                name="Telefon_nummer"
+                type="tel"
+              />
             </div>
 
             <div>
               <label for="Email">Mail:</label>
-              <input placeholder="Skriv din mail" name="Email" type="email" />
+              <input
+                id="Email"
+                placeholder="Skriv din mail"
+                name="Email"
+                type="email"
+              />
             </div>
           </div>
 
           <div class="form_tekst">
             <label for="beskrivelse">Hvad kan vi hjælpe dig med?</label>
             <textarea
+              id="beskrivelse"
               name="beskrivelse"
               placeholder="Skriv her..."
               cols="30"
@@ -88,13 +101,13 @@
         <img src="img/personbillede_kontakt.png" alt="Billede af VVS'er" />
       </div>
     </main>
+    <footer>
+      <div class="footerstor footerlille">
+        <img src="img/logo.svg" alt="logo" />
+        <img src="img/mail.svg" alt="mail" />
+        <img src="img/telefon.svg" alt="telefon" />
+        <img src="img/some.svg" alt="some" />
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="footerstor footerlille">
-      <img src="img/logo.svg" alt="logo" />
-      <img src="img/mail.svg" alt="mail" />
-      <img src="img/telefon.svg" alt="telefon" />
-      <img src="img/some.svg" alt="some" />
-    </div>
-  </footer>
 </html>
