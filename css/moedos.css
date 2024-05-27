@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-img {
-  max-width: 100%;
-}
+/* img { */
+  /* max-width: 100%; */
+/* } */
 
 .grid_1-1 {
   gap: 30px;
@@ -37,18 +37,8 @@ img {
 h2 {
   text-align: center;
 }
-.test {
-  background-color: aqua;
-}
-
-.section2 .personer div {
-  /* margin: 10px;  */
-  /* Juster værdien efter behov */
-}
 
 .section2 .personer img {
   display: block;
-  /* max-width: 100%; */
-
   width: 100%;
-}
+} 
