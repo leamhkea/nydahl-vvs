@@ -58,8 +58,33 @@
   margin: 10px;
 }
 
+.kontakt_informationer {
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+}
+
+.img_container {
+  img {
+    padding: 10px;
+  }
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
 @media (min-width: 800px) {
   .Kontaktformular form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .kontakt_informationer {
+    display: flex;
+  }
+  .img_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -71,6 +96,13 @@
     grid-template-columns: 1fr;
   }
   .send_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .kontakt_informationer {
+    display: grid;
+  }
+  .img_container {
     display: grid;
     grid-template-columns: 1fr;
   }
