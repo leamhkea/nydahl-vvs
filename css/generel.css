@@ -21,26 +21,32 @@ h4 {
   color: var(--secondary);
 }
 
+header ul {
+  list-style: none;
+  padding: 1%;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 main {
   font-family: "plus jakarta sans";
   list-style: none;
+  margin: 2% 12%;
 }
 
 footer {
-  margin-top: 10%;
-}
-body {
   margin: 2% 12%;
+  margin-top: 10%;
 }
 
 @media (min-width: 800px) {
   .footerstor {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: flex;
     justify-content: space-between;
   }
-
 }
 
 @media (max-width: 799px) {
