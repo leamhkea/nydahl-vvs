@@ -38,9 +38,9 @@
 
   .kundeområder{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-  text-align: left; 
+    grid-template-columns: 1fr 3fr;
  }
+ 
  .imgkunde{
    width: 40%;
    justify-content: center;
@@ -49,7 +49,7 @@
  .firepunkter{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+  text-align: center;
  }
 
  .imgfirepunkter{
@@ -67,8 +67,16 @@
     list-style: none;
   }
 
-  p{
-    justify-content: center;
+  .navindex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .hvemervi {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
   }
 
 
@@ -81,30 +89,25 @@
       padding-bottom: 3em;
       gap: 8%;
     }
-    .grid_1-1-1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .grid_1-1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
     
     .firepunkter{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr  ;
      }
 
-    .figurmand{
-      justify-content: center;
-      display: flex;
+
+    .imgkunde{
+      width: 50%;
     }
 
-    img{
-      width: 20%;
-    }
-    .imgkunde{
-      width: 70%;
-    }
+   .nederst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   } 
+
+   .kundehvem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
   }
