@@ -7,37 +7,59 @@
     <link rel="stylesheet" href="css/generel.css" />
     <title>Kontakt os</title>
   </head>
+
   <body>
-    <h2>Få et uforpligtende tilbud</h2>
-    <div class="Kontaktformular">
-      <form>
-        <div class="form_felt">
-          <label for="Full_name">Fulde navn:</label>
-          <input placeholder="Fornavn og efternavn" name="fname" type="text" />
-        </div>
+    <main>
+      <h2>Få et uforpligtende tilbud</h2>
+      <div class="Kontaktformular">
+        <form>
+          <div class="form_felt">
+            <div>
+              <label for="Full_name">Fulde navn:</label>
+              <input
+                placeholder="Fornavn og efternavn"
+                name="fname"
+                type="text"
+              />
+            </div>
 
-        <div class="form_felt">
-          <label for="Telefon_nummer">Telefonnummer:</label>
-          <input placeholder="+45" name="Telefon_nummer" type="tel" />
-        </div>
+            <div>
+              <label for="Telefon_nummer">Telefonnummer:</label>
+              <input placeholder="+45" name="Telefon_nummer" type="tel" />
+            </div>
 
-        <div class="form_felt">
-          <label for="Email">Mail:</label>
-          <input placeholder="Skriv din mail" name="Email" type="email" />
-        </div>
+            <div>
+              <label for="Email">Mail:</label>
+              <input placeholder="Skriv din mail" name="Email" type="email" />
+            </div>
+          </div>
 
-        <div class="form_felt">
-          <label for="beskrivelse">Hvad kan vi hjælpe dig med?</label>
-          <textarea
-            name="beskrivelse"
-            placeholder="Skriv her..."
-            cols="30"
-            rows="10"
-          ></textarea>
-        </div>
-        <button id="send_knap">Send</button>
-      </form>
-    </div>
-    <h2>Kontakt Nydahl VVS</h2>
+          <div class="form_tekst">
+            <label for="beskrivelse">Hvad kan vi hjælpe dig med?</label>
+            <textarea
+              name="beskrivelse"
+              placeholder="Skriv her..."
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button class="send_knap">Send</button>
+          </div>
+        </form>
+      </div>
+      <h2>Kontakt Nydahl VVS</h2>
+      <div class="kontakt_informationer">
+        <div class="mail_kontakt"></div>
+        <div class="telefon_kontakt"></div>
+        <div class="lokation_info"></div>
+      </div>
+    </main>
   </body>
+  <footer>
+    <div class="footerstor footerlille">
+      <img src="img/logo.svg" alt="logo" />
+      <img src="img/mail.svg" alt="mail" />
+      <img src="img/telefon.svg" alt="telefon" />
+      <img src="img/some.svg" alt="some" />
+    </div>
+  </footer>
 </html>

@@ -21,26 +21,48 @@ h4 {
   color: var(--secondary);
 }
 
-main {
-  font-family: "plus jakarta sans";
+a:link {
+  color: var(--primary);
+}
+a:visited {
+  color: var(--secondary);
+}
+a:hover {
+  color: var(--secondary);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+header ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 5em;
+}
+
+body {
+  font-family: "plus jakarta sans";
+}
+main {
+  list-style: none;
+  margin: 2% 12%;
 }
 
 footer {
-  margin-top: 10%;
-}
-body {
   margin: 2% 12%;
+  margin-top: 10%;
 }
 
 @media (min-width: 800px) {
   .footerstor {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: flex;
     justify-content: space-between;
   }
-
 }
 
 @media (max-width: 799px) {
@@ -48,5 +70,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    gap: 10%;
   }
 }
