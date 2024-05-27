@@ -6,23 +6,34 @@ img {
   max-width: 100%;
 }
 
+.grid_1-1 {
+  gap: 30px;
+}
+
 @media (min-width: 800px) {
-  .grid_1-1-1-1 {
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
   }
-  .grid {
+  .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 799px) {
-  .grid_1-1 {
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 }
+
+.img-container {
+  padding: 0 1em;
+}
+
 h2 {
   text-align: center;
 }
@@ -31,10 +42,13 @@ h2 {
 }
 
 .section2 .personer div {
-  margin: 10px; /* Juster værdien efter behov */
+  /* margin: 10px;  */
+  /* Juster værdien efter behov */
 }
 
 .section2 .personer img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
+
+  width: 100%;
 }
