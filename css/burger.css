@@ -1,9 +1,6 @@
 /* Lidt almindelig styling på html, li og a */
 /* step 2 */
-@font-face {
-  font-family: abel;
-  src: url(Abel-Regular.woff);
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +9,10 @@
 
 html {
   font-size: 70%;
-  font-family: "Abel", sans-serif;
+}
+ul {
+  background-color: white;
+  z-index: 1;
 }
 li {
   list-style: none;
