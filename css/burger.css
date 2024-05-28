@@ -1,16 +1,10 @@
 /* Lidt almindelig styling på html, li og a */
 /* step 2 */
 
-* {
+ul {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 70%;
-}
-ul {
   background-color: white;
   z-index: 1;
 }
