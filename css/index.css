@@ -62,15 +62,10 @@
     display: flex;
   }
 
-
-  .navindex ul li{
-    list-style: none;
-  }
-
   .navindex{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    justify-content: center;
   }
 
   .hvemervi {
@@ -107,6 +102,12 @@
    .kundehvem{
     display: grid;
     grid-template-columns: 1fr 1fr;
+   }
+
+   .firepunkter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
    }
 
   }
