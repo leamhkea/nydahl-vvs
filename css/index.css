@@ -49,8 +49,7 @@
  .firepunkter{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
- }
+}
 
  .imgfirepunkter{
   width: 50%;
@@ -74,6 +73,14 @@
   width: 300px;
   }
 
+  .overpunkt{
+    width: 70%;
+  }
+
+  .kundeimg{
+    width: 40%;
+
+  }
 
 
   @media (min-width: 700px) {
@@ -89,10 +96,6 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr  ;
      }
-
-    .imgkunde{
-      width: 50%;
-    }
 
    .nederst{
     display: grid;
@@ -110,4 +113,12 @@
     text-align: center;
    }
 
+   .overpunkt{
+    width: 40%;
+  }
+
+  .kundeimg{
+    width: 40%;
+
+  }
   }
