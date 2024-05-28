@@ -31,7 +31,7 @@ a:hover {
   color: var(--secondary);
 }
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   margin: 2%;
@@ -42,7 +42,7 @@ header ul {
   display: flex;
   justify-content: space-evenly;
   column-gap: 5em;
-}
+} */
 
 body {
   font-family: "plus jakarta sans";
