@@ -40,7 +40,6 @@
     display: grid;
     grid-template-columns: 1fr 10fr;
     align-items: center;
-    
  }
  
  .imgkunde{
@@ -51,12 +50,8 @@
 
  .firepunkter{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
- }
-
- .imgfirepunkter{
-  justify-content: center;
-  object-fit: contain;
+  grid-template-columns: 1fr 5fr 1fr 5fr;
+  align-items: center;  
  }
 
   .figurmand{
@@ -105,11 +100,9 @@
     gap: 0.5em;
     align-items: center;  
 }
-
-   .overpunkt{
-  }
-
-  .kundeimg{
-
-  }
+.kundeområder{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
   }
