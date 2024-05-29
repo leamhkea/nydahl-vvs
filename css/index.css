@@ -70,6 +70,16 @@
   line-height: 1.8em;
   }
 
+  .klikmoedos{
+  margin: auto;
+  width: 400px;
+  line-height: 1.8em;
+  }
+
+  .klikher{
+    text-decoration: underline;
+  }
+
 
 
   @media (min-width: 700px) {
@@ -96,6 +106,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5em;   
+    background-color: #f0f0f0;;
+    padding: 2%;
   }
 
    .firepunkter{

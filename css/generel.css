@@ -39,6 +39,14 @@ footer {
 hr {
   margin-bottom: 5%;
 }
+a:visited{
+  color: var(--primary);
+}
+
+a:hover{
+  color: var(--secondary); 
+}
+
 
 @media (min-width: 800px) {
   .footerstor {
