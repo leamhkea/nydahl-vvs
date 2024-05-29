@@ -21,16 +21,6 @@ h4 {
   color: var(--secondary);
 }
 
-a:link {
-  color: var(--primary);
-}
-a:visited {
-  color: var(--primary);
-}
-a:hover {
-  color: var(--secondary);
-}
-
 body {
   font-family: "plus jakarta sans";
 }
