@@ -1,94 +1,12 @@
-img {
-  max-width: 100%;
-}
-
-html {
-  --primary: #000000;
-  --secondary: #eb0000;
-}
-
-h1 {
-  color: var(--secondary);
-  text-align: center;
-}
-h2 {
-  color: var(--secondary);
-}
-h3 {
-  color: var(--secondary);
-}
-h4 {
-  color: var(--secondary);
-}
-
-a:link {
-  color: var(--primary);
-}
-a:visited {
-  color: var(--primary);
-}
-a:hover {
-  color: var(--secondary);
-}
-
-/* header {
-  display: flex;
-  justify-content: space-between;
-  margin: 2%;
-}
-
-header ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  column-gap: 5em;
-} */
-
-body {
-  font-family: "plus jakarta sans";
-}
-
-main {
-  list-style: none;
-  margin: 2% 12%;
-}
-
-footer {
-  margin: 2% 12%;
-  margin-top: 10%;
-}
-
-@media (min-width: 800px) {
-  .footerstor {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-@media (max-width: 799px) {
-  .footerlille {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-    gap: 10%;
-  }
-}
 /* Lidt almindelig styling på html, li og a */
 /* step 2 */
-@font-face {
-  font-family: abel;
-  src: url(Abel-Regular.woff);
-}
-* {
+
+ul {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 70%;
-  font-family: "Abel", sans-serif;
+  background-color: white;
+  z-index: 1;
 }
 li {
   list-style: none;
@@ -195,4 +113,3 @@ a {
     rotate: -45deg;
   }
 }
-
