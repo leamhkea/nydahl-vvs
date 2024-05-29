@@ -9,14 +9,28 @@
     <link rel="stylesheet" href="css/burger.css">
   </head>
   <header>
-    <img src="img/logo.svg" alt="logo" />
-    <nav>
-      <ul>
-        <li><a href="index.html">Velkommen</a></li>
-        <li><a href="moedos.html">Mød os</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+    <nav class="navbar">
+      <img src="img/logo.svg" alt="logo" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Velkommen</a>
+        </li>
+        <li class="nav-item">
+          <a href="moedos.html" class="nav-link">Mød os</a>
+        </li>
+        <li class="nav-item">
+          <a href="services.html" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="kontakt.html" class="nav-link">Kontakt</a>
+        </li>
       </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
   </header>
   
@@ -39,7 +53,7 @@
       
       <div class="kundehvem">
         <div>
-          <h1>Vores kundeområder:</h1>
+          <h1 class="h1venstre">Vores kundeområder:</h1>
       <div class="kundeområder">
         <img class="kundeimg" src="img/img_index/checkboks.svg" alt="checkboks"> 
         <p>Andelsboligforeninger, ejerforeninger mm.</p>
@@ -51,7 +65,7 @@
     </div>
     
     <div>
-      <h1>Hvem er vi?</h1>
+      <h1 class="h1venstre">Hvem er vi?</h1>
       <p class="hvemervi">Velkommn til Nydahl VVS. Vores højt kvalificerede servicemontører løser og udfører alle former for vvs, renovation og vedligeholdelsesarbejde. Vi bestræber os på at værne om den gode service.</p>
     </div>
   </div>
@@ -92,6 +106,7 @@
   <script src="js/login.js"></script>
 
     <footer>
+      <hr>
       <div class="footerstor footerlille">
         <img src="img/logo.svg" alt="logo" />
         <img src="img/mail.svg" alt="mail" />
