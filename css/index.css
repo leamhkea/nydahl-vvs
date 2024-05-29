@@ -38,8 +38,22 @@
 
   .kundeområder{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-  text-align: left; 
+    grid-template-columns: 1fr 3fr;
+ }
+ 
+ .imgkunde{
+   width: 40%;
+   justify-content: center;
+ }
+
+ .firepunkter{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+ .imgfirepunkter{
+  width: 50%;
+  justify-content: center;
  }
 
   .figurmand{
@@ -47,10 +61,27 @@
     display: flex;
   }
 
-  .imgkunde{
-    width: 20%;
+  .navindex{
+    display: flex;
     justify-content: center;
+    margin: 5%;
   }
+
+  .hvemervi {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  }
+
+  .overpunkt{
+    width: 70%;
+  }
+
+  .kundeimg{
+    width: 40%;
+
+  }
+
 
   @media (min-width: 700px) {
     .section1 {
@@ -60,25 +91,34 @@
       padding-bottom: 3em;
       gap: 8%;
     }
-    .grid_1-1-1-1 {
+    
+    .firepunkter{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+      grid-template-columns: 1fr 1fr 1fr 1fr  ;
+     }
 
-    .grid_1-1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+   .nederst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   } 
 
-    .figurmand{
-      justify-content: center;
-      display: flex;
-    }
+   .kundehvem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
 
-    img{
-      width: 20%;
-    }
-    .imgkunde{
-      width: 70%;
-    }
+   .firepunkter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+   }
+
+   .overpunkt{
+    width: 40%;
+  }
+
+  .kundeimg{
+    width: 40%;
+
+  }
   }
