@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,20 +7,33 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/moedos.css">
   <link rel="stylesheet" href="css/generel.css">
+  <link rel="stylesheet" href="css/burger.css">
   <meta name="robot" content="noindex, nofollow">
 </head>
 
 <body>
   <header>
-    <img src="img/logo.svg" alt="logo" />
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Velkommen</a></li>
-        <li><a href="moedos.html">Mød os</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+    <nav class="navbar">
+      <img src="img/logo.svg" alt="logo" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Velkommen</a>
+        </li>
+        <li class="nav-item">
+          <a href="moedos.html" class="nav-link">Mød os</a>
+        </li>
+        <li class="nav-item">
+          <a href="services.html" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="kontakt.html" class="nav-link">Kontakt</a>
+        </li>
       </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
   </header>
   <main>
@@ -98,17 +111,18 @@
       </div>
     </section>
   </main>
-
-  <footer>
-    <div>
-      <div class="footerstor footerlille">
-        <img src="img/logo.svg" alt="logo" />
-        <img src="img/mail.svg" alt="mail" />
-        <img src="img/telefon.svg" alt="telefon" />
-        <img src="img/some.svg" alt="some" />
-      </div>
-    </div>
-  </footer>
+  <script src="js/burger.js"></script>
+  <script src="js/login.js"></script>
 </body>
+<footer>
+  <div>
+    <div class="footerstor footerlille">
+      <img src="img/logo.svg" alt="logo" />
+      <img src="img/mail.svg" alt="mail" />
+      <img src="img/telefon.svg" alt="telefon" />
+      <img src="img/some.svg" alt="some" />
+    </div>
+  </div>
+</footer>
 
 </html>

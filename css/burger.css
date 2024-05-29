@@ -56,20 +56,20 @@ a {
 }
 
 .nav-link {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #475569;
+  font-size: 1rem;
+  font-weight: 200;
+  color: var(--primary);
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: var(--secondary);
 }
 
-.nav-logo {
+/* .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
   color: #482ff7;
-}
+} */
 
 /* step 7 */
 @media (max-width: 700px) {

@@ -7,7 +7,8 @@
 /* } */
 
 .grid_1-1 {
-  gap: 30px;
+  /* gap: 30px; */
+  /* font-size: large; */
 }
 
 @media (min-width: 800px) {
