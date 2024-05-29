@@ -31,19 +31,6 @@ a:hover {
   color: var(--secondary);
 }
 
-/* header {
-  display: flex;
-  justify-content: space-between;
-  margin: 2%;
-}
-
-header ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  column-gap: 5em;
-} */
-
 body {
   font-family: "plus jakarta sans";
 }
@@ -80,11 +67,11 @@ footer {
   font-family: abel;
   src: url(Abel-Regular.woff);
 }
-/* * { */
-/* margin: 0; */
-/* padding: 0; */
-/* box-sizing: border-box; */
-/* } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   font-size: 70%;
@@ -195,3 +182,4 @@ a {
     rotate: -45deg;
   }
 }
+
