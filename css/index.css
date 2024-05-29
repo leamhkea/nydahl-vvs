@@ -39,21 +39,23 @@
   .kundeområder{
     display: grid;
     grid-template-columns: 1fr 3fr;
+    
  }
  
  .imgkunde{
-   width: 40%;
    justify-content: center;
+   object-fit: contain;
+
  }
 
  .firepunkter{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+ }
 
  .imgfirepunkter{
-  width: 50%;
   justify-content: center;
+  object-fit: contain;
  }
 
   .figurmand{
@@ -74,11 +76,9 @@
   }
 
   .overpunkt{
-    width: 70%;
   }
 
   .kundeimg{
-    width: 40%;
 
   }
 
@@ -114,11 +114,9 @@
    }
 
    .overpunkt{
-    width: 40%;
   }
 
   .kundeimg{
-    width: 40%;
 
   }
   }
