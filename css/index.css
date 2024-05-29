@@ -40,6 +40,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr;
     align-items: center;
+    gap: 0.5em;
  }
  
  .imgkunde{
@@ -50,8 +51,9 @@
 
  .firepunkter{
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr 5fr;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
   align-items: center;  
+  gap: 0.5em;
  }
 
   .figurmand{
@@ -120,5 +122,6 @@
   display: grid;
   grid-template-columns: 1fr 10fr;
   align-items: center;
+  gap: 0.5em;
   }
   }
