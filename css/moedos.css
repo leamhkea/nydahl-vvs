@@ -6,9 +6,18 @@
 /* max-width: 100%; */
 /* } */
 
+.overskrift {
+  text-align: left;
+  margin-top: 1.9em;
+}
+
 .grid_1-1 {
-  /* gap: 30px; */
-  /* font-size: large; */
+  gap: 20px;
+  text-align: left;
+  line-height: 1.8em;
+}
+.grid_1-1 p {
+  margin-top: 0%;
 }
 
 @media (min-width: 800px) {
@@ -32,14 +41,28 @@
 }
 
 .img-container {
-  padding: 0 1em;
+  padding: 4 1em;
+  margin-bottom: 4em;
+  margin-top: 2em;
 }
 
 h2 {
   text-align: center;
+  font-size: xx-large;
 }
-
-.section2 .personer img {
-  display: block;
-  width: 100%;
+.section2 {
+  background-color: #f0f0f0; /* Skift denne farve til den ønskede baggrundsfarve */
+  padding: 20px; /* Tilføjer lidt padding for bedre visuel indramning */
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.grid div {
+  background-color: #fff; /* Baggrundsfarve til individuelle kort */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
 }
