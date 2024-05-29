@@ -80,11 +80,11 @@ footer {
   font-family: abel;
   src: url(Abel-Regular.woff);
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* * { */
+/* margin: 0; */
+/* padding: 0; */
+/* box-sizing: border-box; */
+/* } */
 
 html {
   font-size: 70%;
@@ -195,4 +195,3 @@ a {
     rotate: -45deg;
   }
 }
-
