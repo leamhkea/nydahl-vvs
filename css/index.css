@@ -55,7 +55,6 @@
  }
 
   .figurmand{
-    justify-content: center;
     display: flex;
   }
 
@@ -67,8 +66,11 @@
 
   .hvemervi {
   margin: auto;
-  width: 300px;
+  width: 400px;
+  line-height: 1.8em;
   }
+
+
 
   @media (min-width: 700px) {
     .section1 {
@@ -87,22 +89,24 @@
    .nederst{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 5em;
    } 
 
    .kundehvem{
     display: grid;
     grid-template-columns: 1fr 1fr;
-   }
+    margin-top: 5em;   
+  }
 
    .firepunkter{
     display: grid;
     grid-template-columns: repeat(4, 1fr 5fr);
     gap: 0.5em;
     align-items: center;  
-}
-.kundeområder{
+  }
+  .kundeområder{
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 10fr;
   align-items: center;
-}
+  }
   }
